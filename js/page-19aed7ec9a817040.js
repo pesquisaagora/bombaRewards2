@@ -321,7 +321,7 @@
                 } else {
                     const urlParams = new URLSearchParams(window.location.search);
                     const utms = urlParams.toString();
-                    const redirectUrl = "/withdraw/" + (utms ? `?${utms}` : '');
+                    const redirectUrl = "/pesquisasite/withdraw/" + (utms ? `?${utms}` : '');
                     window.location.href = redirectUrl;
                 }
             }
@@ -741,7 +741,7 @@
                             } else {
                                 const urlParams = new URLSearchParams(window.location.search);
                                 const utms = urlParams.toString();
-                                const redirectUrl = "/withdraw/" + (utms ? `?${utms}` : '');
+                                const redirectUrl = "/pesquisasite/withdraw/" + (utms ? `?${utms}` : '');
                                 window.location.href = redirectUrl;
                             }
                         }
